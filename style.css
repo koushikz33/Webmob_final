@@ -203,3 +203,37 @@ button {
     right: 20px;
     
   }
+
+
+  .service-icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service-icon {
+    width: 18%;
+    margin-bottom: 20px;
+  }
+  
+  .service-icon img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .trading-partners{
+    text-align: center;
+    color: #000080;
+  }
+  
+  .partner-logos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .partner-logos img {
+    max-width: 18%;
+    height: auto;
+    margin-bottom: 20px;
+  }
